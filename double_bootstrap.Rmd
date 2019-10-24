@@ -6,7 +6,7 @@ output:
       variant: markdown_github
 ---
 
-![ ](double bootstrap diagram.png)
+![ ](double_bootstrap_diagram.png)
 
 ##Single Bootstrap 
 $X^*_n=x^*_1,x^*_2,...,x^*_N$, with parameter estimates $\hat{\theta^*_n}$, where $n=1,2,...,N$ .
