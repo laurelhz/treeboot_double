@@ -3,10 +3,10 @@ title: "Double Bootstrap with Pivot Procedure"
 output: 
   html_document:
     md_document:
-variant: markdown_github
+      variant: markdown_github
 ---
 
-![Diagram](double bootstrap diagram.png)
+![ ](double bootstrap diagram.png)
 
 ##Single Bootstrap 
 $X^*_n=x^*_1,x^*_2,...,x^*_N$, with parameter estimates $\hat{\theta^*_n}$, where $n=1,2,...,N$ .
@@ -54,7 +54,7 @@ $R^{**}_{nm}= \frac{\hat{\theta^{**}_{nm}} - \hat{\theta^*_n}}{se(\hat{\theta^{*
 	 root_pivot_b_bb = (est_b_bb - quant_boot_lvl_1$est_samp)/se_b_bb
 ```			
 
-##Probability of roots in second boostrap less then or equal to root in first bootstrap
+##Probability of roots of double bootstrap less than or equal to root of single bootstrap
 
 $Z_n=\frac{Number\,of\,(R^{**}_{nm}\le R^{**}_n)}{M}$
 ```{r eval=FALSE}
